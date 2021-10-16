@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    background-color: gray;
+    width: 100%;
+    min-height: 400px;
+
+}
+.avatar{
+    display: flex;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: white;
+    width: 25%;
+    min-height: 100%;
+
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 73%;
+    min-height: 100%; 
+    background-color: white;
+
+} 
+.item {
+    display: flex;
+    background-color: black;
+    width: 19%;
+    height: 24%;
+}
